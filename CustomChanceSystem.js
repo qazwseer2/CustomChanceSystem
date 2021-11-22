@@ -30,7 +30,6 @@ function damaged(e) {
         e.source.message("§d§l" + e.npc.getName() + ":§c§lВозникла критическая ошибка! Если вы увидели это сообщение, немедленно сообщите о нём вашему Тех. Администратору!")
       }
     }
-    hookMessage(alertH, rtrn)
     e.npc.getStats().setCombatRegen(1000)
     e.npc.getStats().setHealthRegen(1000)
     e.npc.getStats().setMaxHealth(100000000)
